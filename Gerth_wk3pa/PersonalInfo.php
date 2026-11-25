@@ -30,7 +30,7 @@
 
     if($add) {
         //Add a new user
-        $fullName = $_POST['name'];
+        $fullName = $_POST['full_name'];
         $birthdate = $_POST['birthdate'];
         $faveColor = $_POST['fave_color'];
         $favePlace = $_POST['fave_place'];
@@ -63,7 +63,7 @@
     }
     else if($update) {
         //Update an existing user
-        $fullName = $_POST['name'];
+        $fullName = $_POST['full_name'];
         $birthdate = $_POST['birthdate'];
         $faveColor = $_POST['fave_color'];
         $favePlace = $_POST['fave_place'];
